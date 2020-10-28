@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e8e8e8;
+}
+nav{
+    float: inline-end;
+    width: 200px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: px auto;
+}
+
+.item label{
+    display: block;
+    padding: 10px;
+    background-color: #434343;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border-style: solid 2px #fffefe;
+}
+
+.iniciob{
+    width: 202px;
+    height: 40px;
+    background-color: #434343;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    border-style: solid 2px #fffefe;
+}
+
+}
+
+
+.item label:hover{
+    background-color: #f2673a ;
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+}
+
+.item ul{
+    width: 199px;
+    list-style: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .4s linear;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+}
+
+.item ul li a{
+    width: 176px;
+    height: 20px;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
+    border: solid 1px;
+    }
+
+.item input:checked ~ ul{
+    height: auto;
+    max-height: 1000px;
+    transform: all;
+}
+
+.item input{
+    display: none;
+}
+
+.item ul li a:hover{
+    background-color: #9cf;
+}
+ .targe{
+    color: rgb(0, 0, 0);
+    border: solid 3px;
+     background-color: #434343;
+     width: 197px;
+     height: 1000px;
+     position: absolute;
+     z-index: -1;
+ }
+
+ .formprod{
+     width: 1120px;
+     height: 630px;
+     top: 0;
+     left: 204px;
+     position: fixed;
+     background:#4f4f4f; 
+/* cor escura para o fundo do formulário */
+
+font:20px arial, verdana, helvetica, sans-serif; 
+/* o tamanho e o tipo da fonte no formulário */
+
+border-top:8px solid #cfcfcf;
+/* borda superior de 8px solida na cor cinza clara 
+no formulário */
+
+border-left:8px solid #cfcfcf;
+/* a borda esquerda do formulário */
+
+border-right:8px solid #696969; 
+/* a borda direita do formulário */
+
+border-bottom:8px solid #696969; 
+* a borda inferior do formulário */
+
+border-collapse:collapse; 
+/* retira as bordas duplas nas células da tabela */
+
+color:#ff9900; /* a cor laranja para as letras */
+      
+
+ }
+ 
+
+ .formprod h1{
+    background:#000000;
+    /* a cor preta para o fundo do título */
+    
+    padding:3px; 
+    /* um afastamento de 3px */
+    
+    font: bold 15px arial, verdana, helvetica, sans-serif; 
+    /* letras em negrito com 15px e familia arial, verd....*/
+    
+    border-bottom:1px solid #ff9900; 
+    /* uma borda inferior solida de 1px na cor laranja */
+ }
+ .text2{
+    width: 600px;
+    height: 200px;
+    font: Arial;
+    font-size:20px;
+    color: #000000;
+    font-weight: bolder;
+    }
+    .text1{
+    font: Arial;
+    font-size:20px;
+    color: #000000;
+    font-weight: bolder;
+    
+    }
+ 
+ .formprod input{
+     width: 300px;
+     height: 25px;
+    background:#b5b5b5; 
+    /* a cor do fundo dos três campos */
+    
+    border:1px dashed #ff9900;
+    /* uma borda de 1px tracejada e na cor laranja para 
+    o campo */
+ }
+
+ .formprod textarea{
+    background:#b5b5b5; 
+    /* a cor do fundo do campo */
+   
+   border:1px dashed #ff9900; 
+   /* uma borda de 1px tracejada e na cor 
+   laranja para o campo */
+ }
+
+ button{
+    font-size:20px;
+    
+     font-family: Arial, Helvetica, sans-serif;
+     width: 100px;
+     height: 25px;
+     color: #000000;
+    background:#b5b5b5; 
+    /* a cor do fundo do botão */
+    
+    columns: #ff9900;; /* a cor das letras Enviar */
+    border:2px solid #000000;
+    /* uma borda de 2px solida branca no botão*/
+    }  
+ 
+    .formprod{
+        padding:3px;
+    }
+
+    table{
+        width: 100%;
+        overflow: scroll;
+        border-style: solid 2px black;
+    }
+
+    .text4{
+        padding: 3px;
+    }
+

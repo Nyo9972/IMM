@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+		<head>
+            <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+            <meta content="utf-8">
+            <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+            
+        </head>
+        <script>
+            mask[0];
+                $('#money').mask(mask, options);
+                 },
+                 reverse: true
+                 };
+
+                 $('#money').mask('#,##0.00', options);
+        </script>
+
+
+
+        <body>
+            <nav>
+                <div class="targe">
+                    <li>
+                        <p> </p>
+                    </li>
+                </div>
+                
+                <div class="item">
+                    <button onclick="window.location.href='home.html'" class="iniciob">Inicio</button>
+                    <input type="checkbox" id="check1">
+                    <label for="check1">Cadastros</label>
+                    <ul>
+                        <li>
+                            <a href="">Produtos</a>
+                            <a href="">Clientes</a>
+                            <a href="">Fornecedores</a>
+                            <a href="">Mesas</a>
+                            <a href="">Opções</a>
+                            <a href="">Atendentes</a>
+                            <a href="">Filiais</a>
+                            <a href="">Grupos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="check2">
+                    <label for="check2">Lançamentos</label>
+                    <ul>
+                        <li>
+                            <a href="">Contas a Receber</a>
+                            <a href="">Notas De Entrada</a>
+                            <a href="">Despesas</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="check3">
+                    <label for="check3">Pedidos</label>
+                    <ul>
+                        <li>
+                            <a href="">Caixa</a>
+                            <a href="">Pedidos</a>
+                            <a href="">Delivery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <input type="checkbox" id="check4">
+                    <label for="check4">Relatorios</label>
+                    <ul>
+                        <li>
+                            <a href="">Histórico De Vendas</a>
+                            <a href="">Relatorios Gerais</a>
+                            <a href="">Grafico</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="formprod">
+                    <h1>Cadastro De Produtos</h1><br>
+                    Código:        
+                    <input class="text1" type="number" name="codigo" placeholder="Id..."/><br><br>
+                    Produto:       
+                    <input class="text1" type="text" name="produto" placeholder="Digite o nome do produto..."/>
+                    Grupo:
+                   
+                    <select class="text1" name="grupo" id="grupo">
+                        <option value="alimentos">Alimentos</option>
+                        <option value="bebidas">Bebidas</option>
+                        <option value="doces">Doces</option>
+                        <option value="variados">Variados</option>
+                        <option value="diversos">Diversos</option>
+                    </select><br><br>
+                    Descrição:    
+                    <input class="text2" type="text" name="descricao" placeholder="Digite a Descrição do produto..."/><br><br>
+                    Valor Custo: 
+                    <input class="text1" type="text" name="money" id="money" value="0.00"/><br><br>
+                    Valor Venda:
+                    <input class="text1" type="text" name="money" id="money" value="0.00"/>
+                    <button class="botaocad" type="submit">Cadastrar</button>
+                    <br><br>
+                    Pesquisar:   
+                    <input class="text4" type="text" name="produto" placeholder="Digite o nome ou codigo do produto..."/>  <button class="botaocad" type="submit">Pesquisar</button> <br>
+                    <table class="table1" border="1">
+                        <tr><td>ID</td><td>Produto</td><td>Descrição</td><td>Valor De Custo</td><td>Valor De Venda</td></tr>
+                        <tr> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+                        <tr> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+                        <tr> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+                        <tr> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+                        <tr> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+                        <tr> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+                        <tr> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+                        <tr> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+                        <tr> <td> </td> <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+                       
+                        
+                        
+                    </table>
+                </div>
+            </nav>
+        </body>
+		
+        
